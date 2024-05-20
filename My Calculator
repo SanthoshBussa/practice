@@ -1,0 +1,20 @@
+a=int(input('Enter a valve:'))
+b=int(input('Enter a value:'))
+print('+  -  *  /  **  //  %')
+c=input('Enter your choice:')
+if (c=='+'):
+    print('the value is',a+b)
+elif (c=='-'):
+    print('the value is',a-b)
+elif (c=='*'):
+    print('the value is',a*b)
+elif (c=='/'):
+    print('the value is',a/b)
+elif (c=='**'):
+    print('the valve is',a**b)
+elif (c=='//'):
+    print('the value is',a//b)
+elif (c=='%'):
+    print('the value is',a%b)
+else:
+    print('SORRY,ENTR THE CORRECT OPTION,...')
