@@ -1,0 +1,13 @@
+def search(array, n, target):
+    for i in range(n):
+        if array[i] == target:
+            return 1
+    return -1
+array =[12,13,14,15,17,18,19,20]
+n= len(array)
+target=16
+result = search(array,n,target)
+if result == 1:
+    print('Target present at index',array.index(target))
+else:
+    print('Element not present in the given array')
