@@ -1,4 +1,4 @@
-# sum of cubes
+# 
 a=int(input("Enter a lower digit: "))
 b=int(input("Enter a upper digit: "))
 sum=0
