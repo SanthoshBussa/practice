@@ -1,0 +1,11 @@
+def find_sum_of_series(n):
+    series_sum = 0
+    
+    for i in range(1, n + 1):
+        series_sum += i
+    
+    return series_sum
+
+n_terms = int(input("Enter a number: "))
+result = find_sum_of_series(n_terms)
+print(f"Sum of the series up to {n_terms} terms is: {result}")
