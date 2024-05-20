@@ -1,1 +1,10 @@
-print("hello world")
+# sum of cubes
+a=int(input("Enter a lower digit: "))
+b=int(input("Enter a upper digit: "))
+sum=0
+for i in range(a,b+1):
+    if b<=40:
+        j=i**3
+        sum=sum+j
+        i+=1
+print(sum)
